@@ -1,0 +1,13 @@
+// These settings override both User and Default settings for the wavedrom syntax
+{
+    "comment": {
+        "Python": "#",
+        "SystemVerilog" : "//",
+        "VHDL" : "--"
+    },
+    "segment_start": "py_code",
+    "segment_end": "py_end",
+    "only_in_comment": true,
+    "segment_done": "py_this_is_done",
+    "fast_line_start": "py_fast:"
+}
